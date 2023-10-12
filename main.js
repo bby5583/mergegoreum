@@ -8,7 +8,7 @@ var loadingNum = 0;
 window.boot = function() {
 
     var settings = window._CCSettings;
-    window._CCSettings = web-mobile;
+    window._CCSettings = undefined;
 
     if (!settings.debug) {
         var uuids = settings.uuids;
